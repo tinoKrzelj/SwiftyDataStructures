@@ -87,7 +87,7 @@
 		701EEDBD9D8E8F41DB9F47C736649369 /* SwiftyDataStructures.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyDataStructures.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		730266B114B107AD53F0F6835F764FB6 /* Pods-SwiftyDataStructures_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyDataStructures_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7808BBC5D109E1573B3470738CC3A8CC /* Pods-SwiftyDataStructures_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyDataStructures_Tests"; path = Pods_SwiftyDataStructures_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7808BBC5D109E1573B3470738CC3A8CC /* Pods_SwiftyDataStructures_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyDataStructures_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB1EE84B9459B0AD514DC77F641FC85 /* Pods-SwiftyDataStructures_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyDataStructures_Example-dummy.m"; sourceTree = "<group>"; };
 		80D316C421A34EC5EC6B74E14364F062 /* SwiftyDataStructures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyDataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DC8BB41E741452B33937005A191D69 /* SwiftyDataStructures-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyDataStructures-dummy.m"; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 		AC18E863434F7C1F2808D34BAD885504 /* Pods-SwiftyDataStructures_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyDataStructures_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B0BDB1517412C15AB4B9D9DCD809D519 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B50DC05E7F04A840FE0B42DB864C4E07 /* Pods-SwiftyDataStructures_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyDataStructures_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BE8E5CF73513861D85EA9FD045B65104 /* Pods-SwiftyDataStructures_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyDataStructures_Example"; path = Pods_SwiftyDataStructures_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8E5CF73513861D85EA9FD045B65104 /* Pods_SwiftyDataStructures_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyDataStructures_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25A0B379DEB9C66A3E198612DDE3334 /* Pods-SwiftyDataStructures_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyDataStructures_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8A4C447BC6BDEB1F6BEE86990A99134 /* Pods-SwiftyDataStructures_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyDataStructures_Tests.modulemap"; sourceTree = "<group>"; };
 		D9B333D48D77BAD95D09AF3CC1945A5C /* Pods-SwiftyDataStructures_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyDataStructures_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -317,8 +317,8 @@
 		81375077362115E0FB407B9858974AC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE8E5CF73513861D85EA9FD045B65104 /* Pods-SwiftyDataStructures_Example */,
-				7808BBC5D109E1573B3470738CC3A8CC /* Pods-SwiftyDataStructures_Tests */,
+				BE8E5CF73513861D85EA9FD045B65104 /* Pods_SwiftyDataStructures_Example.framework */,
+				7808BBC5D109E1573B3470738CC3A8CC /* Pods_SwiftyDataStructures_Tests.framework */,
 				80D316C421A34EC5EC6B74E14364F062 /* SwiftyDataStructures.framework */,
 			);
 			name = Products;
@@ -445,7 +445,7 @@
 			);
 			name = "Pods-SwiftyDataStructures_Example";
 			productName = Pods_SwiftyDataStructures_Example;
-			productReference = BE8E5CF73513861D85EA9FD045B65104 /* Pods-SwiftyDataStructures_Example */;
+			productReference = BE8E5CF73513861D85EA9FD045B65104 /* Pods_SwiftyDataStructures_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9647738764B3A120AFDBF471B393DF28 /* Pods-SwiftyDataStructures_Tests */ = {
@@ -464,7 +464,7 @@
 			);
 			name = "Pods-SwiftyDataStructures_Tests";
 			productName = Pods_SwiftyDataStructures_Tests;
-			productReference = 7808BBC5D109E1573B3470738CC3A8CC /* Pods-SwiftyDataStructures_Tests */;
+			productReference = 7808BBC5D109E1573B3470738CC3A8CC /* Pods_SwiftyDataStructures_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F0E24967107AF4030B8B89B6E3131298 /* SwiftyDataStructures */ = {
@@ -492,7 +492,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F0E24967107AF4030B8B89B6E3131298 = {
+						LastSwiftMigration = 1300;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -653,7 +658,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -681,7 +686,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyDataStructures/SwiftyDataStructures-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyDataStructures/SwiftyDataStructures-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/SwiftyDataStructures/SwiftyDataStructures.modulemap";
@@ -690,7 +695,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -713,7 +718,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyDataStructures_Example/Pods-SwiftyDataStructures_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyDataStructures_Example/Pods-SwiftyDataStructures_Example.modulemap";
@@ -745,7 +750,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyDataStructures_Example/Pods-SwiftyDataStructures_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyDataStructures_Example/Pods-SwiftyDataStructures_Example.modulemap";
@@ -778,7 +783,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyDataStructures_Tests/Pods-SwiftyDataStructures_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyDataStructures_Tests/Pods-SwiftyDataStructures_Tests.modulemap";
@@ -810,7 +815,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyDataStructures/SwiftyDataStructures-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyDataStructures/SwiftyDataStructures-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/SwiftyDataStructures/SwiftyDataStructures.modulemap";
@@ -819,7 +824,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -841,7 +846,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyDataStructures_Tests/Pods-SwiftyDataStructures_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyDataStructures_Tests/Pods-SwiftyDataStructures_Tests.modulemap";
@@ -909,7 +914,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
