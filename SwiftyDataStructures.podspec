@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SwiftyDataStructures/Classes/**/*'
-  
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'SwiftyDataStructures' => ['SwiftyDataStructures/Assets/*.png']
   # }
