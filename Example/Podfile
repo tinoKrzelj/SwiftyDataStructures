@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SwiftyDataStructures_Example' do
+  pod 'SwiftyDataStructures', :path => '../'
+
+  target 'SwiftyDataStructures_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
