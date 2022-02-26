@@ -1,0 +1,6 @@
+framework module SwiftyDataStructures {
+  umbrella header "SwiftyDataStructures-umbrella.h"
+
+  export *
+  module * { export * }
+}

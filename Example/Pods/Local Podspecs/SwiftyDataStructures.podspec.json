@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyDataStructures",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyDataStructures.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tino.krzelj@icloud.com/SwiftyDataStructures",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tino.krzelj@icloud.com": "tino.krzelj@talabat.com"
+  },
+  "source": {
+    "git": "https://github.com/tino.krzelj@icloud.com/SwiftyDataStructures.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SwiftyDataStructures/Classes/**/*"
+}

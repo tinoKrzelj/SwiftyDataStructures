@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyDataStructures (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyDataStructures (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyDataStructures:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyDataStructures: 422a7620bb3c774503c45e0c4267df9eab2054b1
+
+PODFILE CHECKSUM: 7544d48a59ff707add9748d0cf07f4d93b525f9a
+
+COCOAPODS: 1.11.2

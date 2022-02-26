@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092547E727CA34630053F30C /* BinarySearchTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547CE27CA34630053F30C /* BinarySearchTreeTest.swift */; };
+		092547E827CA34630053F30C /* BinaryTreeNodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547D027CA34630053F30C /* BinaryTreeNodeTest.swift */; };
+		092547E927CA34630053F30C /* TreeNodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547D227CA34630053F30C /* TreeNodeTest.swift */; };
+		092547EA27CA34630053F30C /* TreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547D327CA34630053F30C /* TreeTest.swift */; };
+		092547EB27CA34630053F30C /* BinaryTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547D527CA34630053F30C /* BinaryTreeTest.swift */; };
+		092547EC27CA34630053F30C /* AVLTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547D727CA34630053F30C /* AVLTreeTest.swift */; };
+		092547ED27CA34630053F30C /* AVLTreeNodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547D827CA34630053F30C /* AVLTreeNodeTest.swift */; };
+		092547EE27CA34630053F30C /* QueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547DA27CA34630053F30C /* QueueTest.swift */; };
+		092547EF27CA34630053F30C /* HashMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547DC27CA34630053F30C /* HashMapTest.swift */; };
+		092547F027CA34630053F30C /* Vertex+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547DF27CA34630053F30C /* Vertex+Test.swift */; };
+		092547F127CA34630053F30C /* Edge+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547E027CA34630053F30C /* Edge+Test.swift */; };
+		092547F227CA34630053F30C /* Graph+Tets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547E127CA34630053F30C /* Graph+Tets.swift */; };
+		092547F327CA34630053F30C /* StackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547E327CA34630053F30C /* StackTest.swift */; };
+		092547F427CA34630053F30C /* LinkedListNodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547E527CA34630053F30C /* LinkedListNodeTest.swift */; };
+		092547F527CA34640053F30C /* LinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092547E627CA34630053F30C /* LinkedListTest.swift */; };
 		143E7CDE5E6F7B485AE9E931 /* Pods_SwiftyDataStructures_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D773306C3AD3109177EE78AB /* Pods_SwiftyDataStructures_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		E6523F7F5F9F1E313A8B036B /* Pods_SwiftyDataStructures_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5459249B6D8C72DC3FF43 /* Pods_SwiftyDataStructures_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +43,24 @@
 
 /* Begin PBXFileReference section */
 		0098F29D78CD99A4728A68EE /* Pods-SwiftyDataStructures_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDataStructures_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyDataStructures_Example/Pods-SwiftyDataStructures_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		031A154B7E6CD5D7C7EA573D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		031A154B7E6CD5D7C7EA573D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		092547CE27CA34630053F30C /* BinarySearchTreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeTest.swift; sourceTree = "<group>"; };
+		092547D027CA34630053F30C /* BinaryTreeNodeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeNodeTest.swift; sourceTree = "<group>"; };
+		092547D227CA34630053F30C /* TreeNodeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNodeTest.swift; sourceTree = "<group>"; };
+		092547D327CA34630053F30C /* TreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeTest.swift; sourceTree = "<group>"; };
+		092547D527CA34630053F30C /* BinaryTreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeTest.swift; sourceTree = "<group>"; };
+		092547D727CA34630053F30C /* AVLTreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVLTreeTest.swift; sourceTree = "<group>"; };
+		092547D827CA34630053F30C /* AVLTreeNodeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVLTreeNodeTest.swift; sourceTree = "<group>"; };
+		092547DA27CA34630053F30C /* QueueTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueTest.swift; sourceTree = "<group>"; };
+		092547DC27CA34630053F30C /* HashMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashMapTest.swift; sourceTree = "<group>"; };
+		092547DF27CA34630053F30C /* Vertex+Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vertex+Test.swift"; sourceTree = "<group>"; };
+		092547E027CA34630053F30C /* Edge+Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Edge+Test.swift"; sourceTree = "<group>"; };
+		092547E127CA34630053F30C /* Graph+Tets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Graph+Tets.swift"; sourceTree = "<group>"; };
+		092547E327CA34630053F30C /* StackTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackTest.swift; sourceTree = "<group>"; };
+		092547E527CA34630053F30C /* LinkedListNodeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListNodeTest.swift; sourceTree = "<group>"; };
+		092547E627CA34630053F30C /* LinkedListTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListTest.swift; sourceTree = "<group>"; };
 		1AD5459249B6D8C72DC3FF43 /* Pods_SwiftyDataStructures_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyDataStructures_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33E00CC228529DD4176D2A46 /* SwiftyDataStructures.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyDataStructures.podspec; path = ../SwiftyDataStructures.podspec; sourceTree = "<group>"; };
+		33E00CC228529DD4176D2A46 /* SwiftyDataStructures.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyDataStructures.podspec; path = ../SwiftyDataStructures.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyDataStructures_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyDataStructures_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +70,9 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftyDataStructures_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyDataStructures_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7520E656173EE632E5BC661F /* Pods-SwiftyDataStructures_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDataStructures_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyDataStructures_Tests/Pods-SwiftyDataStructures_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7A2707DA576C9EE68ABDCB57 /* Pods-SwiftyDataStructures_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDataStructures_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftyDataStructures_Example/Pods-SwiftyDataStructures_Example.release.xcconfig"; sourceTree = "<group>"; };
-		97CA98378E021D5FE2DFA572 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97CA98378E021D5FE2DFA572 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CC6848D99BEEE893E2FE6500 /* Pods-SwiftyDataStructures_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDataStructures_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyDataStructures_Tests/Pods-SwiftyDataStructures_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D773306C3AD3109177EE78AB /* Pods_SwiftyDataStructures_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyDataStructures_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +97,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		092547CB27CA34630053F30C /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				092547CC27CA34630053F30C /* Trees */,
+				092547D927CA34630053F30C /* Queue */,
+				092547DB27CA34630053F30C /* Hash Map */,
+				092547DD27CA34630053F30C /* Graphs */,
+				092547E227CA34630053F30C /* Stack */,
+				092547E427CA34630053F30C /* Linked List */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		092547CC27CA34630053F30C /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				092547CD27CA34630053F30C /* Binary Search Tree (BST) */,
+				092547CF27CA34630053F30C /* Shared */,
+				092547D127CA34630053F30C /* Basic Tree */,
+				092547D427CA34630053F30C /* Binary Tree */,
+				092547D627CA34630053F30C /* AVL Tree */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		092547CD27CA34630053F30C /* Binary Search Tree (BST) */ = {
+			isa = PBXGroup;
+			children = (
+				092547CE27CA34630053F30C /* BinarySearchTreeTest.swift */,
+			);
+			path = "Binary Search Tree (BST)";
+			sourceTree = "<group>";
+		};
+		092547CF27CA34630053F30C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				092547D027CA34630053F30C /* BinaryTreeNodeTest.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		092547D127CA34630053F30C /* Basic Tree */ = {
+			isa = PBXGroup;
+			children = (
+				092547D227CA34630053F30C /* TreeNodeTest.swift */,
+				092547D327CA34630053F30C /* TreeTest.swift */,
+			);
+			path = "Basic Tree";
+			sourceTree = "<group>";
+		};
+		092547D427CA34630053F30C /* Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				092547D527CA34630053F30C /* BinaryTreeTest.swift */,
+			);
+			path = "Binary Tree";
+			sourceTree = "<group>";
+		};
+		092547D627CA34630053F30C /* AVL Tree */ = {
+			isa = PBXGroup;
+			children = (
+				092547D727CA34630053F30C /* AVLTreeTest.swift */,
+				092547D827CA34630053F30C /* AVLTreeNodeTest.swift */,
+			);
+			path = "AVL Tree";
+			sourceTree = "<group>";
+		};
+		092547D927CA34630053F30C /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				092547DA27CA34630053F30C /* QueueTest.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		092547DB27CA34630053F30C /* Hash Map */ = {
+			isa = PBXGroup;
+			children = (
+				092547DC27CA34630053F30C /* HashMapTest.swift */,
+			);
+			path = "Hash Map";
+			sourceTree = "<group>";
+		};
+		092547DD27CA34630053F30C /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				092547DE27CA34630053F30C /* Shared */,
+				092547E127CA34630053F30C /* Graph+Tets.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		092547DE27CA34630053F30C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				092547DF27CA34630053F30C /* Vertex+Test.swift */,
+				092547E027CA34630053F30C /* Edge+Test.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		092547E227CA34630053F30C /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				092547E327CA34630053F30C /* StackTest.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		092547E427CA34630053F30C /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				092547E527CA34630053F30C /* LinkedListNodeTest.swift */,
+				092547E627CA34630053F30C /* LinkedListTest.swift */,
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
 		4E1FA67004D36A69EC5D0B0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +270,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				092547CB27CA34630053F30C /* Data Structures */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -156,7 +302,6 @@
 				CC6848D99BEEE893E2FE6500 /* Pods-SwiftyDataStructures_Tests.debug.xcconfig */,
 				7520E656173EE632E5BC661F /* Pods-SwiftyDataStructures_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +372,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -340,7 +486,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				092547F327CA34630053F30C /* StackTest.swift in Sources */,
+				092547E727CA34630053F30C /* BinarySearchTreeTest.swift in Sources */,
+				092547F527CA34640053F30C /* LinkedListTest.swift in Sources */,
+				092547ED27CA34630053F30C /* AVLTreeNodeTest.swift in Sources */,
+				092547E827CA34630053F30C /* BinaryTreeNodeTest.swift in Sources */,
+				092547EA27CA34630053F30C /* TreeTest.swift in Sources */,
+				092547EE27CA34630053F30C /* QueueTest.swift in Sources */,
+				092547F427CA34630053F30C /* LinkedListNodeTest.swift in Sources */,
+				092547F127CA34630053F30C /* Edge+Test.swift in Sources */,
+				092547F027CA34630053F30C /* Vertex+Test.swift in Sources */,
+				092547EC27CA34630053F30C /* AVLTreeTest.swift in Sources */,
+				092547EB27CA34630053F30C /* BinaryTreeTest.swift in Sources */,
+				092547EF27CA34630053F30C /* HashMapTest.swift in Sources */,
+				092547F227CA34630053F30C /* Graph+Tets.swift in Sources */,
+				092547E927CA34630053F30C /* TreeNodeTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +579,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,8 +638,11 @@
 			baseConfigurationReference = 0098F29D78CD99A4728A68EE /* Pods-SwiftyDataStructures_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1000;
 				INFOPLIST_FILE = SwiftyDataStructures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,8 +656,11 @@
 			baseConfigurationReference = 7A2707DA576C9EE68ABDCB57 /* Pods-SwiftyDataStructures_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1000;
 				INFOPLIST_FILE = SwiftyDataStructures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
