@@ -22,7 +22,7 @@ pod 'SwiftyDataStructures'
 
 ## Author
 
-tino.krzelj@icloud.com, tino.krzelj@talabat.com
+tino.krzelj@icloud.com
 
 ## License
 

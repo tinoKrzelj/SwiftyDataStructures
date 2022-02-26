@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## SwiftyDataStructures
 
-Copyright (c) 2022 tino.krzelj@icloud.com <tino.krzelj@talabat.com>
+Copyright (c) 2022 Tino Krzelj <tino.krzelj@icloud.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
